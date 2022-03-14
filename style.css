@@ -1,7 +1,15 @@
+/* Main Resets */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+
+/* Generic/Main Styling */
+.container {
+    width: 50%;
+    margin: 0 auto;
 }
 
 body {
@@ -9,33 +17,82 @@ body {
     flex-direction: column;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.header-logo {
-    font-size: 24px;
-    color: #f9faf8;
-}
-
+/* Main Hero Styling */
 .hero {
     background-color: #1F2937;   
 }
 
 .hero-container {
     display: flex;
+    padding: 60px 0;
+    gap: 200px;
+    flex-shrink: 1;
+}
+
+
+/* Header/Nav Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.header-logo>p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header>ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+/* Hero Card Styling */
+.hero-card {
+    width: 35%;
 }
 
 .hero-card>h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #f9faf8;
 }
 
 .hero-card>p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 10px 25px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-image {
+    width: 60%;
+    height: auto;
+    background-color: #E5E7EB;
+    display: flex;
+    
+}
+
+.hero-image, p {
+    align-items: center;
+    justify-content: center;
+    color: #1F2937;
 }
 
