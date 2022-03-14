@@ -100,6 +100,7 @@ button {
 /* Information Section Styling */
 .information-section {
     background-color: #fff;
+    height: 350px;
 }
 
 .inner-information-section {
@@ -136,7 +137,7 @@ button {
 #box {
     height: 150px;
     width: 150px;
-    border: 3px solid #1F2937;
+    border: 3px solid #3882f6;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -145,6 +146,10 @@ button {
 /* Quote Section Styling */
 .quote-section {
     background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .inner-quote-section {
@@ -166,3 +171,45 @@ button {
     text-align: end;
 }
 
+/* Call to Action Section Styling */
+.call-to-action-section {
+    background-color: #fff;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    width: 900px;
+    height: auto;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 50px 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-text>h3 {
+    color: #E5E7EB;
+}
+
+.call-text>p {
+    color: #E5E7EB;
+}
+
+.call-to-action-container button {
+    border: 2px solid #E5E7EB;
+}
+
+/* Footer Styling */
+footer {
+   background-color: #1F2937; 
+   padding: 25px;
+   text-align: center;
+}
+
+footer>p {
+   font-size: 18px;
+   color: #E5E7EB;
+}
